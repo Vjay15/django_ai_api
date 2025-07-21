@@ -62,6 +62,19 @@ OPENAI_MODEL_ID=your_openai_model_id_here
 
 These environment variables are essential for the OpenAI model integration to function properly.
 
+### vLLM Inference Setup
+This project uses vLLM for running fine-tuned Llama models. The inference setup is based on the repository: [Finetuning_with_scraps](https://github.com/Vjay15/Finetuning_with_scraps)
+
+#### Setup Steps:
+1. **Run the vLLM server** from the Finetuning_with_scraps repository
+2. **Obtain the cloudflared tunnel link** from the notebook output
+3. **Update the API endpoint** in `views.py` file with the new tunnel URL
+
+#### Important:
+- The Social Science and Science Llama models require the vLLM server to be running
+- Update the inference URLs in `api_proj/views.py` whenever you get a new cloudflared tunnel link
+- The tunnel link changes each time you restart the vLLM server
+
 ## Security Features
 
 - **Hash Validation**: Ensures requests haven't been tampered with during transmission
