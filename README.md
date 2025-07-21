@@ -12,6 +12,19 @@ This project explores building custom Django middleware to create a secure AI AP
 - **AI Model Integration**: Multiple AI models accessible through different subdomains
 - **Interactive Testing Interface**: Streamlit application for API testing and interaction
 
+## Sample Images
+<div align="center">
+
+| Screenshot 1 | Screenshot 2 | Screenshot 3 |
+|:---:|:---:|:---:|
+| ![Sample 1](sample/1.jpg) | ![Sample 2](sample/2.jpg) | ![Sample 3](sample/3.jpg) |
+
+| Screenshot 4 | Screenshot 5 |
+|:---:|:---:|
+| ![Sample 4](sample/4.jpg) | ![Sample 5](sample/5.jpg) |
+
+</div>
+
 ## Key Components
 
 ### Custom Middleware
