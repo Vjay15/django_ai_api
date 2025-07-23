@@ -17,6 +17,7 @@ load_dotenv()
 
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 OPENAI_MODEL_ID = os.getenv('OPENAI_MODEL_ID')
+VLLM_URL = os.getenv('VLLM_URL')
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 

@@ -58,6 +58,7 @@ Create a `.env` file in the project root with the following required variables:
 ```
 OPENAI_API_KEY=your_openai_api_key_here
 OPENAI_MODEL_ID=your_openai_model_id_here
+VLLM_URL=your_vLLM_server_link
 ```
 
 These environment variables are essential for the OpenAI model integration to function properly.

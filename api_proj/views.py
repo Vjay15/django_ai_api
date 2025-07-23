@@ -9,7 +9,7 @@ messages = [
     {"role": "system", "content": "You are an expert answer evaluator. Your job is to evaluate student answers fairly based on a flexible rubric and the specified difficulty level.\n\nInstructions:\n1. Return the score out of the total marks.\n2. Give a brief explanation justifying the score, referencing key points from the rubric.\n3. Suggest at least one specific way the student can improve their answer quality or overall academic performance.\n4. Use the rubric as a guideline, not a rigid checklist.\n5. Adjust the strictness of grading based on difficulty:\n   - 'easy' → lenient evaluation; minor issues can be overlooked.\n   - 'medium' → balanced and reasonable evaluation.\n   - 'hard' → stricter evaluation; all points must be well explained and accurate."},
 ]
 
-base = "https://prep-threaded-obligations-strengths.trycloudflare.com/v1/"
+base = f"{settings.VLLM_URL}/v1"
 
 alpaca_prompt = """Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
 
