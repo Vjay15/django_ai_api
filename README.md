@@ -25,6 +25,8 @@ This project explores building custom Django middleware to create a secure AI AP
 
 </div>
 
+## Architecture
+![Architecture Diagam](sample/Architecture.png)
 ## Key Components
 
 ### Custom Middleware
